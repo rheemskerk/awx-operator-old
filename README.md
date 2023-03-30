@@ -483,6 +483,7 @@ The following variables are customizable when `ingress_type=route`
 
 | Name                            | Description                                   | Default                                                 |
 | ------------------------------- | --------------------------------------------- | ------------------------------------------------------- |
+| route_annotations | Route annotations                      | Empty string                |
 | route_host                      | Common name the route answers for             | `<instance-name>-<namespace>-<routerCanonicalHostname>` |
 | route_tls_termination_mechanism | TLS Termination mechanism (Edge, Passthrough) | Edge                                                    |
 | route_tls_secret                | Secret that contains the TLS information      | Empty string                                            |

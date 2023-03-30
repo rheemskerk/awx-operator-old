@@ -300,6 +300,12 @@ spec:
         - urn:alm:descriptor:com.tectonic.ui:advanced
         - urn:alm:descriptor:io.kubernetes:Secret
         - urn:alm:descriptor:com.tectonic.ui:fieldDependency:ingress_type:Route
+      - displayName: Route Annotations
+        path: route_annotations
+        x-descriptors:
+        - urn:alm:descriptor:com.tectonic.ui:advanced
+        - urn:alm:descriptor:com.tectonic.ui:text
+        - urn:alm:descriptor:com.tectonic.ui:fieldDependency:ingress_type:Route
       - displayName: Image Pull Policy
         path: image_pull_policy
         x-descriptors:
