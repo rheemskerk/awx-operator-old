@@ -73,7 +73,6 @@ hostname: ''
 # Add a nodeSelector for the AWX pods. It must match a node's labels for the pod
 # to be scheduled on that node. Specify as literal block. E.g.:
 # node_selector: |
-#   disktype: ssd
 #   kubernetes.io/arch: amd64
 #   kubernetes.io/os: linux
 node_selector: ''
@@ -81,7 +80,6 @@ node_selector: ''
 # Add a nodeSelector for the AWX pods. It must match a node's labels for the pod
 # to be scheduled on that node. Specify as literal block. E.g.:
 # node_selector: |
-#   disktype: ssd
 #   kubernetes.io/arch: amd64
 #   kubernetes.io/os: linux
 web_node_selector: ''
@@ -89,7 +87,6 @@ web_node_selector: ''
 # Add a nodeSelector for the AWX pods. It must match a node's labels for the pod
 # to be scheduled on that node. Specify as literal block. E.g.:
 # node_selector: |
-#   disktype: ssd
 #   kubernetes.io/arch: amd64
 #   kubernetes.io/os: linux
 task_node_selector: ''
